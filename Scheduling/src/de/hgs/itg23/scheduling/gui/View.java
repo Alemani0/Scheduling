@@ -5,6 +5,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
 
 public class View extends JFrame {
 
@@ -24,16 +25,19 @@ public class View extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
+	
 	public View() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 716, 598);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
 		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton Btn1 = new JButton("TestButton");
+		Btn1.setBounds(210, 146, 159, 66);
+		contentPane.add(Btn1);
 	}
-
 }
