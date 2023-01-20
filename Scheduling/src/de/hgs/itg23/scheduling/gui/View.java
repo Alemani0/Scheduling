@@ -33,7 +33,7 @@ public class View extends JFrame {
 		contentPane.add(table);
 		
 		btnNewButton = new JButton("Delete");
-		btnNewButton.setBounds(267, 138, 109, 23);
+		btnNewButton.setBounds(267, 139, 109, 23);
 		contentPane.add(btnNewButton);
 		
 		btnNewButton_1 = new JButton("Append");
